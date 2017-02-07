@@ -26,6 +26,7 @@
 
 	<modules>
 		<module>ServiceRegistration</module>
+		<module>ServiceConfig</module>
 		<module>ServiceA</module>
 		<module>ServiceB</module>
 	</modules>

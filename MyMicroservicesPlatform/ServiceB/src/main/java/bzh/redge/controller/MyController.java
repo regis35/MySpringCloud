@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-@RefreshScope
 public class MyController {
 
 	@Autowired
@@ -25,8 +24,6 @@ public class MyController {
 	@Autowired
 	private RestTemplate restTemplate;
 
-//	@Value("${myNewPro}")
-//    String greeting;
 	
 	@RequestMapping("/service-instances/{applicationName}")
 	public List<ServiceInstance> serviceInstancesByApplicationName(@PathVariable String applicationName) {
@@ -48,10 +45,4 @@ public class MyController {
 	public String titi() {
 		return restTemplate.getForObject("http://ServiceA/info", String.class);
 	}
-
-//	@RequestMapping("/tata")
-//	public String tata() {
-//		return greeting;
-//	}
-	
 }

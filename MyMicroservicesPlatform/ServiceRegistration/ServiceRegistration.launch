@@ -6,6 +6,9 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="bzh.redge.ServiceRegistrationApplication"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--PORT=8761 --INDEX=1 --EUREKA_REPLICATION=eureka2:8762"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ServiceRegistration"/>

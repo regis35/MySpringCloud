@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.springframework.ide.eclipse.boot.launch">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/ServiceGateway/src/main/java/bzh/redge/GatewayApplication.java"/>
+<listEntry value="/ServiceB/src/main/java/bzh/redge/ServiceB.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
@@ -9,8 +9,8 @@
 <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
 <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="bzh.redge.GatewayApplication"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ServiceGateway"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="bzh.redge.ServiceB"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ServiceB"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenSourcePathProvider"/>
 <stringAttribute key="process_factory_id" value="org.springframework.ide.eclipse.boot.launch.process.BootProcessFactory"/>
 <booleanAttribute key="spring.boot.ansi.console" value="true"/>
@@ -20,5 +20,5 @@
 <stringAttribute key="spring.boot.lifecycle.termination.timeout" value="15000"/>
 <booleanAttribute key="spring.boot.livebean.enable" value="true"/>
 <stringAttribute key="spring.boot.livebean.port" value="0"/>
-<stringAttribute key="spring.boot.profile" value=""/>
+<stringAttribute key="spring.boot.profile" value="test"/>
 </launchConfiguration>

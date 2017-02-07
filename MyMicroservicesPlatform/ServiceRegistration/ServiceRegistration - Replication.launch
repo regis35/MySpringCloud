@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.springframework.ide.eclipse.boot.launch">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/MyServiceRegistration/src/main/java/bzh/redge/MyServiceRegistrationApplication.java"/>
+<listEntry value="/ServiceRegistration/src/main/java/bzh/redge/ServiceRegistrationApplication.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="bzh.redge.MyServiceRegistrationApplication"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="bzh.redge.ServiceRegistrationApplication"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--PORT=8762 --INDEX=2 --EUREKA_REPLICATION=eureka1:8761"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MyServiceRegistration"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ServiceRegistration"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenSourcePathProvider"/>
 <stringAttribute key="process_factory_id" value="org.springframework.ide.eclipse.boot.launch.process.BootProcessFactory"/>
 <booleanAttribute key="spring.boot.ansi.console" value="true"/>

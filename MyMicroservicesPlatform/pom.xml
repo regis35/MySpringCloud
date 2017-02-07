@@ -27,6 +27,7 @@
 	<modules>
 		<module>ServiceRegistration</module>
 		<module>ServiceConfig</module>
+		<module>ServiceGateway</module>
 		<module>ServiceA</module>
 		<module>ServiceB</module>
 	</modules>

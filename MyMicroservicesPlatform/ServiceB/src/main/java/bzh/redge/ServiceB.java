@@ -17,6 +17,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class ServiceB {
 
 	public static void main(String[] args) {
+		// test git
 		SpringApplication.run(ServiceB.class, args);
 	}
 }

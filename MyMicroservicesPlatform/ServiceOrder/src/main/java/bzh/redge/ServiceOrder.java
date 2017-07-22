@@ -14,10 +14,10 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @EnableHystrix
 @ComponentScan
-public class ServiceB {
+public class ServiceOrder {
 
 	public static void main(String[] args) {
 		// test
-		SpringApplication.run(ServiceB.class, args);
+		SpringApplication.run(ServiceOrder.class, args);
 	}
 }

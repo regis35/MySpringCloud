@@ -30,7 +30,7 @@ public class MyController {
 		return this.discoveryClient.getInstances(applicationName);
 	}
 
-	@RequestMapping("/servicesA")
+	@RequestMapping("/servicesProduct")
 	public void toto() {
 
 		List<ServiceInstance> instances = discoveryClient.getInstances("MYFIRSTSERVICE");
@@ -41,8 +41,8 @@ public class MyController {
 		}
 	}
 	
-	@RequestMapping("/serviceA")
+	@RequestMapping("/serviceProduct")
 	public String titi() {
-		return restTemplate.getForObject("http://ServiceA/info", String.class);
+		return restTemplate.getForObject("http://ServiceProduct/info", String.class);
 	}
 }

@@ -29,8 +29,8 @@
 		<module>ServiceConfig</module>
 		<module>ServiceGateway</module>
 		<module>ServiceHystrixDashboard</module>
-		<module>ServiceA</module>
-		<module>ServiceB</module>
+		<module>ServiceProduct</module>
+		<module>ServiceOrder</module>
 		<module>SideCarNodeJs</module>
 	</modules>
 

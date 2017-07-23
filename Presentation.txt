@@ -1,0 +1,127 @@
+01- Présentation du composant : ServiceRegistration
+	--> Présentation du fichier : pom.xml
+	--> Présentation de la classe : ServiceRegistrationApplication.java
+	--> Présentation du fichier : application.properties
+	
+02- Exécution du fichier : 01 - ServiceRegistration.launch
+
+03- Ouverture de l'url -> http://eureka:8761/
+	--> Configuration du hosts 
+		127.0.0.1		eureka1
+		127.0.0.1		eureka2
+		127.0.0.1		eureka
+		
+04- Présentation du composant : ServiceProduct
+	--> Présentation de la classe : ServiceProductApplication.java
+	--> Présentation du fichier : application.properties
+	
+05- Exécution du fichier : 02 - ServiceProduct - Instance n°1.launch
+
+06- Exécution du fichier : 03 - ServiceProduct - Instance n°2.launch
+
+07- Ouverture de l'url -> http://localhost:8081/info
+
+08- Ouverture de l'url -> http://localhost:8082/info
+
+09- Présentation du composant : ServiceConfig
+	--> Présentation du fichier : ServiceConfigApplication.java
+	--> Présentation du fichier : application.properties
+
+10- Exécution du fichier : 04 - ServiceConfig.launch
+	
+11- Présentation du composant : ServiceOrder
+	--> Présentation du fichier : application.properties
+	--> Présentation de la classe : ConfController.java
+	--> Présentation du fichier : https://github.com/regis35/MySpringCloud/blob/master/ServiceOrder.properties
+	--> Présentation du fichier : https://github.com/regis35/MySpringCloud/blob/master/ServiceOrder-test.properties
+	--> Présentation du launcher : 05 - ServiceOrder.launch
+	
+12- Exécution du fichier : 05 - ServiceOrder.launch
+
+13- Ouverture de l'url -> http://localhost:8100/myVar
+
+14- Arrét du fichier : 05 - ServiceOrder.launch
+
+15- Exécution du fichier : 06 - ServiceOrder-test.launch
+
+16- Ouverture de l'url -> http://localhost:8100/myVar
+
+17- Exécution du fichier : 07 - ServiceRegistration - Replication.launch
+
+18- Ouverture de l'url -> http://eureka:8762/
+
+LoadBalancing 
+
+19- Présentation de la classe : MyController.java
+
+20- Ouverture de l'url -> http://localhost:8100/serviceProduct
+
+Gateway
+
+21- Présentation du composant : ServiceGateway
+	--> Présentation de la classe : GatewayApplication.java
+	--> Présentation du fichier : application.properties
+	
+22- Exécution du fichier : 08 - ServiceGateway.launch
+
+23- Ouverture de l'url -> http://localhost/info
+
+24- Présentation de la classe : Filter.java
+
+CircuitBreaker
+
+25- Présentation de la classe : ServiceOrder.java
+
+26- Présentation de la classe : CircuitBreakerController.java
+
+27- Présentation de la classe : BreakerService.java
+
+28- Ouverture de l'url -> http://localhost/breaker
+
+29- Arrêt 02 - ServiceProduct - Instance n°1.launch
+
+30- Arrêt 03 - ServiceProduct - Instance n°2.launch
+
+31- Ouverture de l'url -> http://localhost/breaker
+
+32- Exécution du fichier : 09 - ServiceProduct - Instance n°1.launch
+
+33- Exécution du fichier : 10 - ServiceProduct - Instance n°2.launch
+
+SideCar
+
+34- Présentation du fichier : server.js
+
+35- Exécution du fichier : 11 - ServiceNode.launch
+
+36- Présentation du composant : SideCarNodeJs
+	--> Présentation de la classe : SideCarNodeJsApplication.java
+	--> Présentation du fichier : application.properties
+
+37- Exécution du fichier : 12 - SideCarNodeJs.launch
+
+38- Ouverture de l'url -> http://localhost/product
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

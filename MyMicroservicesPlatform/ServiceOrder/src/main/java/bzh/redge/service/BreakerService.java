@@ -19,7 +19,7 @@ public class BreakerService {
 	@HystrixCommand(fallbackMethod = "failMethod")
 	public String checker() {
 		
-		return restTemplate.getForObject("http://ServiceA/info", String.class);
+		return restTemplate.getForObject("http://ServiceProduct/info", String.class);
 	}
 	
 	public String failMethod() {

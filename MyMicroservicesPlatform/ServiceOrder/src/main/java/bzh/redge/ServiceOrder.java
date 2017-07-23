@@ -9,15 +9,14 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableCircuitBreaker
 @EnableAutoConfiguration
 @EnableDiscoveryClient
+@EnableCircuitBreaker
 @EnableHystrix
 @ComponentScan
 public class ServiceOrder {
 
 	public static void main(String[] args) {
-		// test
 		SpringApplication.run(ServiceOrder.class, args);
 	}
 }

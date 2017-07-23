@@ -12,7 +12,7 @@ public class CircuitBreakerController {
 	@Autowired
 	private BreakerService bs;
 	
-	@RequestMapping("/circuitBreaker")
+	@RequestMapping("/breaker")
 	public String circuitBreaker() {
 		return bs.checker();
 	}

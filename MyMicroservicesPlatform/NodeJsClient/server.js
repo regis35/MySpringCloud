@@ -20,12 +20,12 @@ app.get('/info', function (req, res) {
 	res.end();
 });
 
-app.get('/servicea', function (req, res) {
+app.get('/product', function (req, res) {
 	
 	var options = {
 		host: 'localhost',
 		port: 8400,
-		path: '/servicea/info'
+		path: '/serviceproduct/info'
 	};
 	
 	res.setHeader("Content-Type", "application/json");
